@@ -14,9 +14,12 @@ $(document).ready(function() {
 
 			var $newDiv = $("<div class='colour_box'></div>")
 			$newDiv.css('background-color', colour);
-			$newDiv.css('width', 100/colours.length +"%")
+			$newDiv.css('opacity', (colours.length - i)/colours.length)
+			$newDiv.css('width', 100/(colours.length * 2) +"%")
 			$('#terminator').append($newDiv);
+			$('#terminator').prepend($newDiv.clone());
 		}
+
 
 	}
 
