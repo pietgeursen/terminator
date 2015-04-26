@@ -1,4 +1,6 @@
-
+html,body {
+    height:100%;
+}
 
 #title{
 	font-family: 'Crimson Text', serif;
@@ -7,3 +9,24 @@
 	font-size: 300%;
 }
 
+#terminator{
+	margin-left: auto;
+	margin-right: auto;
+	width: 5%;
+	height: 80%;
+	padding: 0px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.colour_box{
+	/*background-color: red*/
+	margin: auto;
+	/*margin-right: auto;*/
+	width: 100%;
+	/*height: %;*/
+	/*padding: 20px;*/
+	border: 1px solid black;
+	box-sizing: border-box;
+	/*flex: 1 1 auto;*/
+}
