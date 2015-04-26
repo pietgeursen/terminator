@@ -26,7 +26,7 @@ get '/colours' do
 	    },
 	    parameters:{
 	    	:palette =>"precise", 
-	    	:sort=>"weight", 
+	    	:sort=>"relevance", 
 	    	:url=>sunset_url
 	    }
 
